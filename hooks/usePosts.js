@@ -8,7 +8,7 @@ export const usePosts = (initialPage = 1, initialPosts = []) => {
   );
   const router = useRouter();
   const postsPerPage = 10;
-  // Extract the current page number from the URL
+
   const currentPage = parseInt(router.query.page) || 1;
 
   useEffect(() => {
@@ -28,7 +28,6 @@ export const usePosts = (initialPage = 1, initialPosts = []) => {
   }, [currentPage]);
 
   const setCurrentPage = (page) => {
-    // Push the current page number into the URL
     router.push(`?page=${page}`, undefined, { shallow: true });
   };
 

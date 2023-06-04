@@ -64,7 +64,6 @@ const Post: React.FC<PostProps> = (props) => {
           ></video>
         )}
         {!props.published && userHasValidSession && postBelongsToUser && (
-          // <button onClick={() => publishPost(props.id)}>Publish</button>
           <Button
             variant="contained"
             onClick={() => publishPost(props.id)}
@@ -74,7 +73,6 @@ const Post: React.FC<PostProps> = (props) => {
           </Button>
         )}
         {userHasValidSession && postBelongsToUser && (
-          // <button onClick={() => deletePost(props.id)}>Delete</button>
           <Button
             variant="contained"
             onClick={() => deletePost(props.id)}

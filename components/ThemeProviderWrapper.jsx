@@ -1,4 +1,3 @@
-// components/ThemeProviderWrapper.jsx
 import { useTheme } from "../context/useTheme";
 import React from "react";
 

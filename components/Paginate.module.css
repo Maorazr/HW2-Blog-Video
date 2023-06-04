@@ -20,7 +20,7 @@
 .paginate ul {
   padding: 0.5rem 1rem;
   margin: 0 0.25rem;
-  /* background-color: #eee; */
+
   border: 1px solid;
   border-radius: 0.25rem;
   text-decoration: none;
@@ -37,7 +37,6 @@
 }
 
 .paginate .current {
-  /* background: #56aaff; */
   font-weight: bold;
   background-color: #56aaff;
   box-shadow: 1px 1px 2px #56aaff;
